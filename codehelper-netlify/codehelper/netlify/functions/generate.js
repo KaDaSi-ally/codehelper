@@ -57,7 +57,7 @@ async function callGemini(apiKey, userText) {
       body: JSON.stringify({
         systemInstruction: { parts: [{ text: SYSTEM_PROMPT }] },
         contents: [{ role: "user", parts: [{ text: userText }] }],
-        generationConfig: { maxOutputTokens: 6000, responseMimeType: "application/json" },
+        generationConfig: { maxOutputTokens: 8192, responseMimeType: "application/json" },
       }),
     }
   );
