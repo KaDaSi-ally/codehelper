@@ -12,7 +12,7 @@
 // This also fixes the earlier "unterminated string" JSON bug: code is returned
 // as an ARRAY of line-strings, not one giant string with embedded raw newlines.
 
-const MODEL = "gemini-2.0-flash";
+const MODEL = "gemini-2.5-flash";
 
 const EXPLANATION_PROMPT = `You are a friendly computer science teacher explaining programming to a Class 10-12 average student who finds coding confusing.
 
